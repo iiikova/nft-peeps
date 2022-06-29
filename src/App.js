@@ -11,7 +11,7 @@ function App() {
         <div className="container">
           <header>
             <div className="logo">
-              <img src={require("./images/logo.png")} alt="logo" />
+              <img src={require("./assets/images/logo.png")} alt="logo" />
             </div>
             <div className="navbar">
               <ul>
@@ -44,7 +44,6 @@ function App() {
             </div>
           </header>
           <div className="title">
-            <SecComp />
             <p className="title__p">NFT Collection</p>
             <h1>Bored</h1>
             <h1>NFT Peeps</h1>
@@ -98,7 +97,10 @@ function App() {
               <hr />
             </div>
             <div className="block__image">
-              <img src={require("../src/images/bored_peeps.png")} alt="bored" />
+              <img
+                src={require("./assets/images/bored_peeps.png")}
+                alt="bored"
+              />
             </div>
           </div>
         </div>
@@ -118,11 +120,11 @@ function App() {
               <h3>Common</h3>
               <p>Tier 1</p>
               <div>
-                <img src={require("../src/images/tier_1.png")} alt="tier" />
-                <img src={require("../src/images/tier_2.png")} alt="tier" />
-                <img src={require("../src/images/tier_2.png")} alt="tier" />
-                <img src={require("../src/images/tier_2.png")} alt="tier" />
-                <img src={require("../src/images/tier_2.png")} alt="tier" />
+                <img src={require("./assets/images/tier_1.png")} alt="tier" />
+                <img src={require("./assets/images/tier_2.png")} alt="tier" />
+                <img src={require("./assets/images/tier_2.png")} alt="tier" />
+                <img src={require("./assets/images/tier_2.png")} alt="tier" />
+                <img src={require("./assets/images/tier_2.png")} alt="tier" />
               </div>
               <p>
                 Diam vestibulum mattis aliquam, urna condimentum id. Ultrices

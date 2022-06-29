@@ -59,7 +59,7 @@ button {
 }
 
 .main {
-  background-image: url("../src/images/main.png");
+  background-image: url("./assets/images/main.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,7 +96,7 @@ button {
     }
     &__p::first-letter {
       padding: 20px 0 20px 20px;
-      background-image: url("./images/Vector_bg_title.png");
+      background-image: url("./assets/images/Vector_bg_title.png");
       background-repeat: no-repeat;
     }
     h1 {
@@ -125,7 +125,7 @@ button {
     }
     p::first-letter {
       padding: 20px 0 20px 20px;
-      background-image: url("./images/Vector_bg_title.png");
+      background-image: url("./assets/images/Vector_bg_title.png");
       background-repeat: no-repeat;
     }
     h2 {
@@ -179,7 +179,7 @@ button {
   }
   &__title::first-letter {
     padding: 20px 0 20px 20px;
-    background-image: url("./images/Vector_bg_title.png");
+    background-image: url("./assets/images/Vector_bg_title.png");
     background-repeat: no-repeat;
   }
   &__desc {
@@ -225,7 +225,7 @@ button {
   padding: 50px 0;
   .letter::first-letter {
     padding: 20px 0 20px 20px;
-    background-image: url("./images/Vector_bg_title.png");
+    background-image: url("./assets/images/Vector_bg_title.png");
     background-repeat: no-repeat;
   }
   p {
@@ -246,7 +246,7 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 50px 0;
     margin-bottom: 50px;
-    background-image: url("../src/images/Vector.png");
+    background-image: url("./assets/images/Vector.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 476px;
@@ -299,7 +299,7 @@ button {
   }
   p::first-letter {
     padding: 20px 0 20px 20px;
-    background-image: url("./images/Vector_bg_title.png");
+    background-image: url("./assets/images/Vector_bg_title.png");
     background-repeat: no-repeat;
   }
   h2 {
@@ -348,7 +348,7 @@ button {
     }
     p::first-letter {
       padding: 20px 0 20px 20px;
-      background-image: url("./images/Vector_bg_title.png");
+      background-image: url("./assets/images/Vector_bg_title.png");
       background-repeat: no-repeat;
     }
     h2 {
@@ -379,7 +379,7 @@ button {
     }
     p::first-letter {
       padding: 20px 0 20px 20px;
-      background-image: url("./images/Vector_bg_title.png");
+      background-image: url("./assets/images/Vector_bg_title.png");
       background-repeat: no-repeat;
     }
     h2 {
