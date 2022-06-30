@@ -1,0 +1,33 @@
+@import "../../index.sass"
+
+.container
+  @include container
+
+.team
+  padding: 50px 0
+  background: #fddbe2
+
+  h4
+    @include h4
+
+  h4::first-letter
+
+  &_bg
+
+  h1
+    @include h1
+
+  .peeps
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    div
+      color: #222222
+      @include centered
+      p
+        margin-top: 20px
+        font-weight: 700
+        font-size: 18px
+
+      h3
+        font-weight: 700
+        font-size: 36px

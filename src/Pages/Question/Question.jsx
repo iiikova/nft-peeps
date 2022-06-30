@@ -1,18 +1,18 @@
 import React from "react";
-import "../../App.scss";
+import style from "./Question.module.sass";
+
+// components
 import ControlledAccordions from "../../components/ControlledAccordions";
 
 function Question() {
   return (
-    <div className=" container__2">
-      <div className="question">
-        <div className="question__header">
-          <p>Faq</p>
-          <h2>Frequent Questions</h2>
-        </div>
+    <div className={style.question}>
+      <div className={style.container}>
         <div>
-          <ControlledAccordions />
+          <h4>Faq</h4>
+          <h1>Frequent Questions</h1>
         </div>
+        <ControlledAccordions />
       </div>
     </div>
   );
